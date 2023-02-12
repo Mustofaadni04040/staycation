@@ -34,3 +34,14 @@ test("Should render <Link> component", () => {
     expect(container.querySelector("a")).toBeInTheDocument();
   }, 1000);
 });
+
+test("Should render <Link> component", () => {
+  setTimeout(() => {
+    const { container } = render(
+      <Router>
+        <Button href="" type="link"></Button>
+      </Router>
+    );
+    expect(container.querySelector("a")).toBeInTheDocument();
+  }, 1000);
+});
