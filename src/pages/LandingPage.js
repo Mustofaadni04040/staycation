@@ -14,8 +14,15 @@ export default class LandingPage extends Component {
     super(props);
     this.refMostPicked = React.createRef();
   }
+
+  componentDidMount() {
+    window.title = "Staycation | Home";
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
+      //..this.props : passing semua props yang ada di header
       <>
         <Header {...this.props}></Header>
         <Hero refMostPicked={this.refMostPicked} data={landingPage.hero} />
