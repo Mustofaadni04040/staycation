@@ -1,4 +1,5 @@
 {
+  "idItem": "ObjectID()",
   "duration": "2",
   "price": "240",
   "bookingDateStart": "new Date()",

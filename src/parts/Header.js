@@ -22,7 +22,7 @@ export default function Header(props) {
   const isSticky = () => {
     const header = document.querySelector(".header-section");
     const scrollTop = window.scrollY;
-    scrollTop >= 500
+    scrollTop >= 200
       ? header.classList.add("is-sticky")
       : header.classList.remove("is-sticky");
   };

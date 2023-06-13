@@ -11,7 +11,7 @@ import formatNumber from "utils/formatNumber";
 export default function Hero(props) {
   function showMostPicked() {
     window.scrollTo({
-      top: props.refMostPicked.current.offsetTop - 30,
+      top: props.refMostPicked.current.offsetTop - 230, //default 30
       behavior: "smooth",
     });
   }
