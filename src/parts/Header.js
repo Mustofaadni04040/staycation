@@ -34,7 +34,7 @@ export default function Header(props) {
           <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Button className="brand-text-icon mx-auto" href="" type="link">
-                Stay<span className="text-gray-900">cation.</span>
+                Nginep<span className="text-gray-900">Yuk.</span>
               </Button>
             </nav>
           </div>

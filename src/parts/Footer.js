@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="col-auto" style={{ width: 350 }}>
             <IconText />
             <p className="brand-tagline">
-              We kaboom your beauty holiday instanly, and memorable
+              kami akan membuat liburan anda menjadi indah, dan berkesan
             </p>
           </div>
           <div className="col-auto mr-5">

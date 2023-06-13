@@ -53,7 +53,7 @@ export default class Checkout extends Component {
     const steps = {
       bookingInformation: {
         title: "Booking Information",
-        description: "Please fill up the blank fields below",
+        description: "Harap isi kolom kosong di bawah ini",
         content: (
           <BookingInformation
             data={data}
@@ -66,7 +66,7 @@ export default class Checkout extends Component {
 
       payment: {
         title: "Payment",
-        description: "Kindly follow the instruction below",
+        description: "Silakan ikuti instruksi di bawah ini",
         content: (
           <Payment
             data={data}

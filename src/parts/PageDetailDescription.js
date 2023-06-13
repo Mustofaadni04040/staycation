@@ -4,7 +4,7 @@ import parse from "html-react-parser";
 export default function PageDetailDescription({ data }) {
   return (
     <main>
-      <h4>About the place</h4>
+      <h4>Deskripsi Tempat</h4>
       {parse(data.description)}
       <div className="row" style={{ marginTop: 30 }}>
         {data.features.map((feature, index) => {

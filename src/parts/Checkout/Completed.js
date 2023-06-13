@@ -16,8 +16,8 @@ export default function Completed() {
               className="img-fluid" //agar img nya mengisi penuh tanpa melewati lebar col-4 (bawaan bootstrap)
             />
             <p className="text-gray-500">
-              We will inform you via email later once the transaction has been
-              accept
+              Kami akan menginformasikan melalui email nanti setelah transaksi
+              telah diterima
             </p>
           </div>
         </div>

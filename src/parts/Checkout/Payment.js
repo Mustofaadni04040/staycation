@@ -31,7 +31,7 @@ export default function Payment(props) {
                   <dl>
                     <dd>Bank Centrak Asia</dd>
                     <dd>2208 1996</dd>
-                    <dd>PT. MustofaAdny Sukses</dd>
+                    <dd>PT. Kelompok25 Sukses</dd>
                   </dl>
                 </div>
               </div>
@@ -44,7 +44,7 @@ export default function Payment(props) {
                   <dl>
                     <dd>Bank Mandiri</dd>
                     <dd>2208 1996</dd>
-                    <dd>PT. MustofaAdny Sukses</dd>
+                    <dd>PT. Kelompok25 Sukses</dd>
                   </dl>
                 </div>
               </div>
