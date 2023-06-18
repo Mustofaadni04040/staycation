@@ -15,7 +15,7 @@ export default function Completed() {
               alt="completed checkout apartment"
               className="img-fluid" //agar img nya mengisi penuh tanpa melewati lebar col-4 (bawaan bootstrap)
             />
-            <p className="text-gray-500">
+            <p className="text-gray-500 text-center">
               Kami akan menginformasikan melalui email nanti setelah transaksi
               telah diterima
             </p>

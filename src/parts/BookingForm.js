@@ -77,7 +77,7 @@ export default class BookingForm extends Component {
             per {itemDetails.unit}
           </span>
         </h5>
-        <label htmlFor="duration">How long you will stay?</label>
+        <label htmlFor="duration">Berapa lama anda menginap?</label>
         <InputNumber
           max={30}
           suffix={" night"}
@@ -87,14 +87,14 @@ export default class BookingForm extends Component {
           value={data.duration}
         />
 
-        <label htmlFor="date">Pick a date</label>
+        <label htmlFor="date">Pilih Tanggal</label>
         <InputDate onChange={this.updateData} name="date" value={data.date} />
 
         <h6
           className="text-gray-500 font-weight-light"
           style={{ marginBottom: 40 }}
         >
-          You will pay{" "}
+          Tagihan Anda:{" "}
           <span className="text-gray-900">
             ${itemDetails.price * data.duration} USD
           </span>{" "}

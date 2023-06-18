@@ -2,8 +2,8 @@ import React from "react";
 
 import { Fade } from "react-awesome-reveal";
 
-import ImageHero from "assets/images/img-hero.jpg";
-import ImageHero_ from "assets/images/img-hero-frame.jpg";
+import ImageHero from "assets/images/img-hero-women.jpg";
+import DecorIntersect from "assets/images/Decore.svg";
 
 import Button from "elements/Button";
 
@@ -17,9 +17,9 @@ export default function Hero(props) {
   }
 
   return (
-    <Fade direction="left" duration={2000}>
-      <section className="container pt-4">
-        <div className="row align-items-center">
+    <section className="container pt-4">
+      <div className="row align-items-center">
+        <Fade direction="left" duration={2000}>
           <div className="col-auto pr-5" style={{ width: 530 }}>
             <h1 className="font-weight-bold line-height-1 mb-3">
               Lupakan Pekerjaan, <br />
@@ -88,25 +88,34 @@ export default function Hero(props) {
               </div>
             </div>
           </div>
+        </Fade>
 
-          <div className="col-6 pl-5">
-            <div style={{ width: 520, height: 410 }}>
+        <div className="col-6 pl-5">
+          <div style={{ width: 520, height: 410 }}>
+            <Fade direction="right" duration={2000}>
               <img
                 src={ImageHero}
-                alt="Room with couches"
+                alt="Traveller Women"
                 className="img-fluid position-absolute"
-                style={{ margin: "-30px 0 0 -30px", zIndex: 1 }}
+                style={{ margin: "-70px 0 0 10px", zIndex: 1 }}
               />
-              <img
-                src={ImageHero_}
-                alt="Room with couches frame"
-                className="img-fluid position-absolute"
-                style={{ margin: "0 -15px -15px 0" }}
-              />
-            </div>
+            </Fade>
+            <img
+              src={DecorIntersect}
+              alt="Decoration"
+              className="position-absolute"
+              style={{
+                opacity: "0.2",
+                width: "766px",
+                height: "700px",
+                left: "200px",
+                top: "-230px",
+                zIndex: -1,
+              }}
+            />
           </div>
         </div>
-      </section>
-    </Fade>
+      </div>
+    </section>
   );
 }

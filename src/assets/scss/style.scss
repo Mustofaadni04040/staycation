@@ -70,10 +70,10 @@
 }
 
 header {
-  border-bottom: 1px solid $gray-200;
   width: 100%;
   position: relative;
   margin-bottom: 50px;
+  background: transparent;
 
   .navbar {
     height: 80px;
@@ -104,6 +104,72 @@ header {
 
 section {
   margin-bottom: 70px;
+}
+
+.carousel-left {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  overflow: hidden;
+  .carousel-wrapper-left {
+    display: flex;
+    height: 110px;
+    animation: moveSlideToLeft 20s linear infinite;
+    .card-brand {
+      width: 227px;
+      height: 110px;
+      text-align: center;
+
+      .logo {
+        width: 120px;
+      }
+    }
+  }
+}
+
+@keyframes moveSlideToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveSlideToRight {
+  0% {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.carousel-right {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  overflow: hidden;
+  .carousel-wrapper-right {
+    display: flex;
+    height: 110px;
+    animation: moveSlideToRight 20s linear infinite;
+    .card-brand {
+      width: 227px;
+      height: 110px;
+      text-align: center;
+
+      .logo {
+        width: 120px;
+      }
+    }
+  }
+}
+
+.logo {
+  width: 70px;
 }
 
 .img-cover {
